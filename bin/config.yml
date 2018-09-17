@@ -1,0 +1,111 @@
+#Mensagens
+GeralColor: "&3"
+InfoColor: "&f"
+Tag: "&0[&c!!!&0]"
+
+#Geral
+NomeDoServidor: "ServerName"
+LinkDoForm: "www.trial.site.com.com"
+MinimumPlayers: 2
+
+#Site da loja
+siteLoja: www.site.com
+
+#Tempos
+tempoInicio: 240
+tempoInvencibilidade: 120
+
+#Youtube (Para add mensagem so copiar a ultima e colar)
+YoutuberMSG:
+- "&3Requisitos YT:"
+- "&4Edite aqui"
+- "&5Para adicionar mais siga as intruçoes acima"
+
+#Blacklist para os fakes
+FakeBlackList:
+- Someera
+- PolexGames
+- venom_extreme
+
+#Motd %tempo% e %pularlinha%
+motdIniciou: "&7[&c&l!&7]&7 O torneio ja iniciou %tempo% %pulalinha%Loja: www.site.com"
+motdNaoIniciou: "&7[&c&l!&7]&7 O torneio vai iniciar em %tempo% %pulalinha%Loja: www.site.com"
+
+#Itens do feast (id, porcentagem)
+feastItems:
+- '264,10'
+- '310,16'
+- '311,15'
+- '312,14'
+- '313,25'
+- '276,28'
+- '278,14'
+- '282,10'
+- '327,5'
+- '30,36'
+- '368,15'
+- '259,34'
+- '320,18'
+- '262,52'
+- '364,3'
+- '322,7'
+- '297,8'
+- '261,4'
+- '46,1'
+- '384,7'
+
+#Itens do minifeast (id, porcentagem)
+miniFeastItems:
+- '264,10'
+- '310,16'
+- '311,15'
+- '312,14'
+- '313,25'
+- '276,28'
+- '278,14'
+- '282,10'
+- '327,5'
+- '30,36'
+- '368,15'
+- '259,34'
+- '320,18'
+- '262,52'
+- '364,3'
+- '322,7'
+- '297,8'
+- '261,4'
+- '46,1'
+- '384,7'
+
+#Dados do mysql
+MySql:
+  user: root
+  pass: root
+  host: 127.0.0.1
+  database: hg
+  
+BarText: "IP: "
+
+#Mensagens do auto broadcast
+AutoMessages:
+- "&7Mensagem 1"
+- "&8Mensagem 2"
+
+#Usar uuid ? Pirata = melhor não, Original = melhor sim
+useUUIDSQL: false
+
+#IP do servidor
+ServerIP: a1.hg.com.br
+
+#ScoreBoard (%kit% = Kit do Player | %players% = Jogadores participando | %kills% = Kills do jogador | %tempo% = Tempo). Para linha em branco sempre bota(§f) e vai adicionando para cada linha 1 (§f§f)
+ScoreTitle: "&4HG"
+ScoreBoard:
+- "&f"
+- "&4&lKit:"
+- "&c&l->%kit%"
+- "&f&f"
+- "&6&lJogadores:"
+- "&e&l->%players%"
+- "&f&f&f"
+- "&2&lTempo:"
+- "&a&l->%tempo%"
